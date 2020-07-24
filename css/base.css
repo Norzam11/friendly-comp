@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(../fonts/Oswald-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald'), local('Oswald'), url(../fonts/Oswald-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(../fonts/Oswald-Bold.ttf) format('truetype');
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+	padding-top: 20px;
+	line-height: 2;
+}
+
+
+.navbar-default{
+	background-color: #e3f2fd;
+	border-color: transparent;
+}
+
+.img-logo{
+  margin-left: 20px;
+	width: 35px;
+	height: auto;
+}
+
+.text-btn-top{
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.form-control:focus{
+	border-color: #000;
+    outline: 10px;
+    -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,.075), 0 0 0 rgba(102,175,223,.6);
+    box-shadow: inset 0 0 0 rgba(0,0,0,.075), 0 0 0 rgba(102,175,223,.6);
+}
+
+.navbar-form{
+	padding: 0;
+}
+
+.form-top{
+	height: 45px;
+	width: 300px !important;
+	border: 0px;
+  	border-color: #000000;
+	border-radius: 5px;
+}
+
+.btn-search-top{
+	background-color: transparent;
+    border-color: transparent;
+    padding: 0px 0px 0px 10px;
+    color: #666;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navbar-top .menu-top{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 16px;
+}
+
+.navbar-top .menu-top>li>a{
+	padding: 15px 0px 15px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-top .menu-top>li:last-child>a{
+	margin-right: 0px;
+}
+
+.produk{
+  border: border: 2px;
+  border-color: #000000;
+}
+
+.laptop1{
+	background-color: #4B0082;
+}
+
+.footer{
+    background: #dcdedd;
+    min-height: 300px;
+    padding-top: 40px;
+    margin-top: 10px;
+}
+
+.copyright{
+ background: #7FFF00;
+}
+
+.title-footer{
+	font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.item{
+  margin-top: 40px;
+}
+
+.navbar-toggle{
+    border-radius: 0;
+}
+
+.prevnext{
+    border-radius: 0px;
+}
+
+.prevnext a{
+    color: #333;
+}
+
+.prevnext>li.active>a, .prevnext>li.active>a:focus, .prevnext>li.active>a:hover {
+    color: #333;
+    background-color: #eee;
+    border-radius: 0px;
+}
+
+.prevnext p{
+    font-weight: 300;
+}
+
+.btn-search-top:hover{
+    color: #333;
+}
+
+/*font Awesome http://fontawesome.io*/
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+/*Comment List styles*/
+.comment-list .row {
+  margin-bottom: 0px;
+}
+
+
+  .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before {
+    border-left: 0;
+  }
+  /*****Left Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.left:before {
+    left: 0px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-right-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.left:after {
+    left: 1px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-right-color: #FFFFFF;
+    border-width: 15px;
+  }
+  /*****Right Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.right:before {
+    right: -16px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-left-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.right:after {
+    right: -14px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-left-color: #FFFFFF;
+    border-width: 15px;
+  }
+
+
+@media (min-width: 769px){
+	.container{
+		max-width: 1024px;
+	}
+}
+
+@media (max-width: 768px){
+	.img-logo{
+		width: 30px;
+		height: auto;
+	}
+
+	.form-top{
+		height: 45px;
+		width: 100% !important;
+	}
+}
